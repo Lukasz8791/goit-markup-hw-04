@@ -400,6 +400,10 @@ header {
   margin-bottom: 72px;
 }
 
+.flex-column {
+  flex-direction: column;
+}
+
 .portfolio-buttons {
   padding: 12px 24px;
   border-radius: 4px;
