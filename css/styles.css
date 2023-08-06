@@ -369,38 +369,28 @@ header {
   width: 264px;
 }
 
-.footer-social {
-  display: flex;
-  gap: 120px;
-  
-}
-
 .footer-logo-wrapper {
   display: flex;
   gap: 16px;
 }
 
-.footer-all{
-  display: inline-flex;
-  gap:120px;
+.footer-all {
+  display: flex;
+  gap: 120px;
+  margin: auto;
 }
 
-
-.social-text{
-color: var(--white);
-font-family: Roboto;
-line-height: 1.5;
-letter-spacing: 0.32px;
-padding: 0 0 16px;
+.social-text {
+  color: var(--white);
+  font-family: Roboto;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  padding: 0 0 16px;
 }
 
 .portfolio-container {
   padding-top: 96px;
   padding-bottom: 120px;
-}
-
-.flex-column {
-  flex-direction: column;
 }
 
 .button-list {
