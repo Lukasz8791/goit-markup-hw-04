@@ -321,6 +321,13 @@ header {
   align-items: center;
 }
 
+.circle:hover{
+  background-color: cornflowerblue;
+}
+.circle:focus{
+  background-color: cornflowerblue;
+}
+
 .icon-social {
   fill: #4d5ae5;
 }
@@ -400,9 +407,7 @@ header {
   margin-bottom: 72px;
 }
 
-.flex-column {
-  flex-direction: column;
-}
+
 
 .portfolio-buttons {
   padding: 12px 24px;
