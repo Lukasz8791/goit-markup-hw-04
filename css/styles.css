@@ -3,6 +3,7 @@
   padding: 0;
 }
 
+
 body {
   font-size: 16px;
   font-style: normal;
@@ -19,6 +20,8 @@ body {
   --clout: #f4f4fd;
   --white: #ffff;
   --iris: #4d5ae5;
+  --green: #31D0AA;
+  --ocean: #404BBF;
 }
 
 ul {
@@ -90,11 +93,11 @@ header {
 }
 
 .menu:hover {
-  color: var(--brand-color);
+  color: var(--ocean);
 }
 
 .menu:focus {
-  color: var(--brand-color);
+  color: var(--ocean);
 }
 
 .contact {
@@ -111,13 +114,13 @@ header {
   letter-spacing: 0.32px;
   white-space: nowrap;
 }
-
+ 
 .adress:hover {
-  color: var(--brand-color);
+  color: var(--ocean);
 }
 
 .adress:focus {
-  color: var(--brand-color);
+  color: var(--ocean);
 }
 
 .black-box {
@@ -151,7 +154,7 @@ header {
   min-width: 169px;
   height: 56px;
   border-radius: 4px;
-  background: var(--brand-color);
+  background: var(--iris);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   padding: 16px 32px;
   cursor: pointer;
@@ -168,13 +171,13 @@ header {
 }
 
 .button-order:hover {
-  background-color: var(--brand-color);
+  background-color: var(--ocean);
   color: #ffffff;
   outline: none;
 }
 
 .button-order:focus {
-  background-color: var(--brand-color);
+  background-color: var(--ocean);
   color: #ffffff;
   outline: none;
 }
@@ -322,10 +325,13 @@ header {
 }
 
 .circle:hover{
-  background-color: cornflowerblue;
+  background-color: var(--green);
 }
 .circle:focus{
-  background-color: cornflowerblue;
+  background-color: var(--green);
+}
+.circle:active{
+  background-color: var(--green);
 }
 
 .icon-social {
@@ -342,6 +348,8 @@ header {
   margin: auto;
   align-items: center;
   justify-content: center;
+  list-style: none;
+  fill: #8e8f99;
 }
 
 .customers-element {
@@ -349,8 +357,24 @@ header {
   height: 88px;
   border-radius: 4px;
   border: 1px solid #8e8f99;
-  justify-content: center;
   padding: 16px 32px;
+  fill: #8e8f99;
+}
+
+
+.customers-element:focus{
+  border:1px solid var(--ocean);
+  fill: var(--ocean);
+}
+
+.customers-element:hover{
+  border: 1px solid var(--ocean);
+  fill: var(--ocean);
+}
+
+.customers-element:active{
+  border: 1px solid var(--ocean);
+  color: var(--ocean);
 }
 
 .footer-box {
@@ -412,7 +436,7 @@ header {
 .portfolio-buttons {
   padding: 12px 24px;
   border-radius: 4px;
-  border: 1px solid var(--cornflower);
+  border: none;
   outline: none;
   background: var(--clout);
   color: var(--brand-color);
@@ -441,6 +465,10 @@ header {
   box-shadow: 0px 2px 2px 0px #0000001f;
   box-shadow: 0px 2px 1px 0px #00000014;
   box-shadow: 0px 3px 1px 0px #0000001a;
+}
+
+.flex-column{
+  flex-direction: column;
 }
 
 .card-set {
